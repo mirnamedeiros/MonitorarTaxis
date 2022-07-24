@@ -1,0 +1,22 @@
+{
+    "entities": [
+        {
+            "isPattern": "false",
+            "id": "taxi-v1",
+            "type": "Taxi"
+        }
+    ],
+    "attributes": [
+        "Status",
+        "Latitude",
+        "Longitude"
+    ],
+    "reference": "http://172.17.0.1:8080/MonitorarTaxis/subscribe",
+    "duration": "P1M",
+    "notifyConditions": [
+        {
+            "type": "ONCHANGE"
+        }
+    ],
+    "throttling": "PT5S"
+}

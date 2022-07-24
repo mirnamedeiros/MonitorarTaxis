@@ -1,0 +1,27 @@
+{
+  "contextElements": [
+    {
+      "type": "Taxi",
+      "isPattern": "false",
+      "id": "taxi-v3",
+      "attributes": [
+        {
+          "name": "Status",
+          "type": "String",
+          "value": "Livre"
+        },
+        {
+          "name": "Latitude",
+          "type": "Float",
+          "value": "-5.837774"
+        },
+        {
+          "name": "Longitude",
+          "type": "Float",
+          "value": "-35.205742"
+        }
+      ]
+    }
+  ],
+  "updateAction": "UPDATE"
+}
