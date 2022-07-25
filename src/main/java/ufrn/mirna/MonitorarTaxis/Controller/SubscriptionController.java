@@ -42,7 +42,7 @@ public class SubscriptionController {
 	        fields.forEachRemaining(field -> {
 	            keys.add(field.getKey());
 	            if(field.getKey().toString().equals("id")) {
-	            	System.out.print("\nTaxi com ID: "+field.getValue().asText()+" foi atualizado");
+	            	System.out.print("\nTaxi com ID:"+field.getValue().asText()+" foi atualizado");
 	            }
 	            getKeysUsingJsonNodeFields((JsonNode) field.getValue(), keys);
 	        });
